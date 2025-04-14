@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text and Button</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('images.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: red;
+            width: 100%;
+            text-align: center;
+            padding: 10px 2;
+        }
+
+        .header h1 {
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>خدمة كوتشينج الانبا ابرام بالدوير </h1>
+    </div>
+
+    <div class="content">
+        <button class="button" onclick="window.location.href='https://drive.google.com/drive/folders/1vY0nxZ5VNkVUqEZYAmyrCos8DaBSXAwI?usp=sharing'">المسابقات</button>
+    </div>
+    <div class="content">
+        <button class="button" onclick="window.location.href='https://drive.google.com/drive/folders/1ahGYTX7fsXjnIS3e6691fgbRemmx3YPQ?usp=sharing'">المحاضرات</button>
+    </div>
+</body>
+</html>
